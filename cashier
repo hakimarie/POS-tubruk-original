@@ -42,7 +42,7 @@
   } catch (e) { console.error("Error cek sesi:", e); }
 
   // URL WEB APP GOOGLE APPS SCRIPT (samain dengan dashboard.html)
-  const SCRIPT_URL = 'GANTI DENGAN WEB URL HASIL DEPLOY';
+  const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwebuvQXQ836tdBdL82G-88tQsVLmFBjPsX412XKjvkfJm_aGrlzlcMEtuRXxqntKvEEA/exec';
 </script>
 
 <!-- Header -->
