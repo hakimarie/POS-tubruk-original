@@ -95,7 +95,7 @@
         // =========================================================================
         // URL WEB APP GOOGLE APPS SCRIPT (DEPLOYS SCRIPT KLIEN)
         // =========================================================================
-        const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwebuvQXQ836tdBdL82G-88tQsVLmFBjPsX412XKjvkfJm_aGrlzlcMEtuRXxqntKvEEA/exec';
+        const SCRIPT_URL = 'GANTI DENGAN WEB URL HASIL DEPLOY';
     </script>
 
     <!-- Mobile Sidebar Overlay -->
@@ -431,7 +431,21 @@
 
             <!-- VIEW: KASIR POS -->
             <div id="view-pos" class="view-section hidden max-w-full h-full">
-                <div class="flex flex-col lg:flex-row gap-6 lg:h-[calc(100vh-140px)] min-h-screen lg:min-h-0">
+                <div class="flex items-center justify-between gap-3 bg-white border border-slate-200 rounded-xl shadow-sm p-3 sm:p-4 mb-4">
+                    <div class="flex items-center gap-3 min-w-0">
+                        <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-lg bg-amber-50 text-amber-600 flex items-center justify-center shrink-0">
+                            <i data-lucide="utensils" class="w-4 h-4 sm:w-5 sm:h-5"></i>
+                        </div>
+                        <div class="min-w-0">
+                            <h3 class="font-bold text-sm sm:text-base text-slate-800 truncate">Mode Dine-In Lite</h3>
+                            <p class="text-[11px] sm:text-xs text-slate-500 truncate">Interface kasir minimal khusus meja pelanggan (nomor meja + catatan, tanpa ongkir).</p>
+                        </div>
+                    </div>
+                    <a href="cashier.html" target="_blank" class="shrink-0 bg-amber-500 hover:bg-amber-600 text-white px-3 sm:px-4 py-2 rounded-lg text-xs sm:text-sm font-bold shadow-sm transition-colors flex items-center gap-1.5 whitespace-nowrap">
+                        <i data-lucide="external-link" class="w-3.5 h-3.5 sm:w-4 sm:h-4"></i> Buka Kasir Lite
+                    </a>
+                </div>
+                <div class="flex flex-col lg:flex-row gap-6 lg:h-[calc(100vh-200px)] min-h-screen lg:min-h-0">
                     <!-- Kiri: Grid Produk -->
                     <div class="flex-1 bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden flex flex-col h-[60vh] lg:h-auto">
                         <div class="p-4 border-b border-slate-100 bg-slate-50 flex items-center gap-3 shrink-0">
